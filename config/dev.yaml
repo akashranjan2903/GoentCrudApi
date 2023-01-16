@@ -1,0 +1,15 @@
+database:
+    dsn: host=localhost port=8080 user=postgres dbname=DemoDatabase password=@kash123 sslmode=disable
+
+app:
+    env: dev
+    port: :3030
+
+pagination:
+    offset: 0
+    limit: 10
+
+jwt:
+    secret: 249c5779db4686bcf94a56961ca46f416772b2671e794f9b8bc5b0c8644d9e5f
+    expiry: 15
+    expiry_refresh: 1440
